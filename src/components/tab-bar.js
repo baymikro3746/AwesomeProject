@@ -62,8 +62,8 @@ function TabBar({ state, descriptors, navigation }) {
             height={56} 
             flex={1} 
             onPress={onPress}>
-            {label === 'Geçmiş' && <RotateCcw stroke={Theme.colors.gray} />  }
-            {label === 'Favori' && <Bookmark stroke={Theme.colors.gray}  />  }
+            {label === 'Geçmiş' && <RotateCcw stroke={Theme.colors.textLight} />  }
+            {label === 'Favori' && <Bookmark stroke={Theme.colors.textLight}  />  }
             <Box size={3} bg={ isFocused ? 'red' : 'white' } mt={8}/>
           </Button>
         )
