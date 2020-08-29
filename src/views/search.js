@@ -12,7 +12,7 @@ function SearchView({navigation}) {
         title="Go to Details"
         onPress={() => navigation.navigate('Detay')}
       />
-      <Logo width={70} heigth={40} color="red"/>
+      <Logo width={86} heigth={40} color="red"/>
     </BoxCenter>
   );
 }
